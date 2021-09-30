@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/music_list_pager_fragment">
+
+    <fragment
+        android:id="@+id/music_list_pager_fragment"
+        android:name="com.avela.android.mpa.ui.musiclist.MusicListFragment"
+        tools:layout="@layout/fragment_music_list_pager">
+
+        <action
+            android:id="@+id/action_music_list_pager_fragment_to_navigation_browse_detail"
+            app:destination="@id/navigation_browse_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_browse_detail"
+        android:name="com.avela.android.mpa.ui.browsedetail.BrowseDetailFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_browse_detail">
+        <argument
+            android:name="tagName"
+            app:argType="string" />
+        <argument
+            android:name="tagValue"
+            app:argType="string" />
+    </fragment>
+</navigation>

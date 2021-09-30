@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../.gradle/caches/transforms-3/29bd2c7e976a174458b22d7a8e60b9ce/transformed/exoplayer-ui-2.15.0/res/drawable-anydpi-v21/exo_icon_play.xml" value="0.3841025641025641" />
+        <entry key="../../../.gradle/caches/transforms-3/5eeff9aa8f451aead20ac5e1655fc410/transformed/exoplayer-ui-2.15.0/res/drawable/exo_rounded_rectangle.xml" value="0.37135416666666665" />
+        <entry key="../../../Android/Sdk/platforms/android-30/data/res/layout/app_error_dialog.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3841025641025641" />
+        <entry key="app/src/main/res/drawable/ic_music_art.xml" value="0.39010416666666664" />
+        <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.3841025641025641" />
+        <entry key="app/src/main/res/drawable/ic_pause.xml" value="0.3841025641025641" />
+        <entry key="app/src/main/res/drawable/ic_play_button_arrowhead.xml" value="0.3841025641025641" />
+        <entry key="app/src/main/res/drawable/play_to_stop.xml" value="0.3841025641025641" />
+        <entry key="app/src/main/res/drawable/stop_to_play.xml" value="0.3841025641025641" />
+        <entry key="app/src/main/res/drawable/tab_icon_color_selector.xml" value="0.3841025641025641" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31671554252199413" />
+        <entry key="app/src/main/res/layout/fragment_browse_detail.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/fragment_browse_library.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.26099706744868034" />
+        <entry key="app/src/main/res/layout/fragment_music_list_pager.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/fragment_now_playing.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_player_big.xml" value="0.1818642350557244" />
+        <entry key="app/src/main/res/layout/fragment_playlist.xml" value="0.1818642350557244" />
+        <entry key="app/src/main/res/layout/fragment_playlist_list.xml" value="0.17451874366767983" />
+        <entry key="app/src/main/res/layout/list_item_browse_library.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/menu/activity_menu.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.20625" />
+        <entry key="app/src/main/res/xml/searchable.xml" value="0.22554347826086957" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

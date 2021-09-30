@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MPA</string>
+    <string name="title_home">Home</string>
+    <string name="title_browse">Browse</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="generic_error">The application has encountered an unexpected error.</string>
+    <string name="error_media_not_found">Could not locate requested media.</string>
+    <string name="notification_channel">Now Playing</string>
+    <string name="notification_channel_description">Currently Playing</string>
+    <string name="album_image">Album Image</string>
+    <string name="play_pause_button">Play Pause Button</string>
+    <string name="duration_unknown">--:--</string>
+    <string name="duration_format">%d:%02d</string>
+    <string name="play">M 4 9.5 L 4 2.5 L 9.5 6 L 4 9.5 M 8 2.5 L 8 2.5</string>
+    <string name="pause">M 4 2.5 L 4 4.25 L 4 6 L 4 9.5 M 8 2.5 L 8 9.5</string>
+    <string name="album_art">Album Art</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/now_playing_full"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorOnPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/cover_big"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/song_name_big"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/album_art" />
+        <ImageButton
+            android:id="@+id/playlist_switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/cover_big"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:src="@drawable/exo_icon_play"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:contentDescription="@string/album_art" />
+        <TextView
+            android:id="@+id/song_name_big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            app:flow_verticalBias="0"
+            app:layout_constraintBottom_toTopOf="@id/seekbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.93" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/seekbar"
+            android:progressTint="@color/black"
+            android:backgroundTint="@color/teal_200"
+            app:labelBehavior="gone"
+            app:thumbRadius="8dp"
+            app:haloRadius="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:valueFrom="0.0"
+            android:valueTo="100.0"/>
+
+        <TextView
+            android:id="@+id/position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seekbar"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="00:00" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seekbar"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="00:00"/>
+
+        <ImageView
+            android:id="@+id/play_pause_button"
+            android:src="@drawable/play_to_stop"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seekbar"
+            app:layout_constraintVertical_bias="0.110000014"
+            android:contentDescription="@string/play_pause_button" />
+
+        <ImageButton
+            android:id="@+id/prev_button"
+            android:src="@drawable/exo_controls_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/play_pause_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seekbar"
+            app:layout_constraintVertical_bias="0.110000014"
+            android:contentDescription="@string/play_pause_button" />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:src="@drawable/exo_controls_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/play_pause_button"
+            app:layout_constraintTop_toBottomOf="@id/seekbar"
+            app:layout_constraintVertical_bias="0.110000014"
+            android:contentDescription="@string/play_pause_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

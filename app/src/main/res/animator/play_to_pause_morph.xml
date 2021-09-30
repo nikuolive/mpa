@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="300"
+        android:propertyName="pathData"
+        android:valueFrom="@string/play"
+        android:valueTo="@string/pause"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:valueType="pathType" />
+    <objectAnimator
+        android:duration="300"
+        android:propertyName="fillColor"
+        android:valueFrom="#000"
+        android:valueTo="#00FFFFFF"
+        android:valueType="colorType"
+        android:interpolator="@android:interpolator/fast_out_slow_in"/>
+    <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="strokeColor"
+        android:valueFrom="#00FFFFFF"
+        android:valueTo="#000000"
+        android:valueType="colorType" />
+    <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="strokeWidth"
+        android:valueFrom="0"
+        android:valueTo="2"
+        android:valueType="floatType" />
+</set>
